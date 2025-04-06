@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styling for buttons and selects */
+button, select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover, select:hover {
+  opacity: 0.9;
+}
+
+/* Container for the game canvas */
+.game-canvas {
+  width: 100%;
+  height: 600px;
+  border: 2px solid #444;
+  margin: 0 auto;
+  display: block;
+  /* Use a background image from assets (e.g., forest) */
+  background: url('/assets/images/forest_of_shakti.png') center/cover no-repeat;
+  position: relative;
+}
